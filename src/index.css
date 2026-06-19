@@ -95,7 +95,7 @@ body {
     @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
 
     nav {
-      @apply container mx-auto flex-between px-5 2xl:px-0;
+      @apply container mx-auto flex-between px-5;
 
       img {
         @apply cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
@@ -241,19 +241,19 @@ body {
       }
 
       .p1 {
-        @apply absolute bottom-1/2 left-[23%] z-[1] max-sm:left-[33%];
+        @apply absolute bottom-1/2 left-[23%] z-1 max-sm:left-[33%];
       }
 
       .p2 {
-        @apply absolute bottom-[40%] right-[17%] z-[3] max-sm:right-[37%];
+        @apply absolute bottom-[40%] right-[17%] z-3 max-sm:right-[37%];
       }
 
       .p3 {
-        @apply absolute bottom-1/4 right-[15%] z-[2] max-sm:right-[35%];
+        @apply absolute bottom-1/4 right-[15%] z-2 max-sm:right-[35%];
       }
 
       .p4 {
-        @apply absolute bottom-[15%] right-[10%] z-[1] max-sm:right-[30%];
+        @apply absolute bottom-[15%] right-[10%] z-1 max-sm:right-[30%];
       }
 
       .p5 {
@@ -261,11 +261,11 @@ body {
       }
 
       .p6 {
-        @apply absolute bottom-1/4 left-1/4 z-[2] max-sm:left-[35%];
+        @apply absolute bottom-1/4 left-1/4 z-2 max-sm:left-[35%];
       }
 
       .p7 {
-        @apply absolute bottom-[5%] left-[15%] z-[3] max-sm:left-[35%];
+        @apply absolute bottom-[5%] left-[15%] z-3 max-sm:left-[35%];
       }
     }
 
