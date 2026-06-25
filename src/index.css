@@ -113,7 +113,7 @@ body {
   }
 
   #hero {
-    @apply h-fit  col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+    @apply h-fit col-center mt-40 lg:mt-20 2xl:mt-[7vh];
 
     div {
       @apply relative z-10 col-center lg:translate-y-16;
@@ -141,7 +141,7 @@ body {
   }
 
   #product-viewer {
-    @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;
+    @apply container relative min-h-[93vh] mx-auto px-10 mt-40;
 
     h2 {
       @apply text-white font-semibold text-3xl lg:text-6xl;
